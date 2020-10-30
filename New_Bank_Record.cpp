@@ -1272,9 +1272,7 @@ int main()
     }
 	menu:
 	system("cls");
-	cout<<"\t\t\t ------------------"<<endl;
-	cout<<"\t\t\t| VIDYALANKAR BANK |"<<endl;
-	cout<<"\t\t\t ------------------"<<endl;
+	cout<<"\t\t\t  VIDYALANKAR BANK  "<<endl;
 	cout<<"\n\n\t\t\t\t MENU\n";
 	cout<<"\n\t\t1. Employee ";
 	cout<<"\n\t\t2. Customer ";
