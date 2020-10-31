@@ -1025,7 +1025,7 @@ void employee()
             	menu_e();
         }
     else
-        {   printf("\n\nWrong password or Emplyoee Id!!");
+        {   printf("\n\nIncorrect password or Emplyoee Id!!");
             login_try:
             cout<<"\nEnter 1 to try again , 2 for Main Menu and"
 					<<" 0 to Exit:";
