@@ -677,8 +677,12 @@ void Bank::deposit_withdraw()
                 cout<<"Enter the amount you want to Withdraw: ";
                 cin>>amt;
                 file.seekg(0, ios::beg);
-                if(amt > atoi(depo.c_str()))
+                if
+				{
+					(amt > atoi(depo.c_str()))
                     cout<<"Not Enough Balance\n";
+				}
+
                 else
                 {
                     amt = atoi(depo.c_str()) - amt;
