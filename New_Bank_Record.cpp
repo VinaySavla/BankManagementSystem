@@ -1013,7 +1013,7 @@ void employee()
 	}
  	s = s.substr(0, s.size()-1);
     cout<<endl;
-    if(s == "1234" && (name == "Vinay" || name == "Kuber"))
+    if(s == "1234" && (name == "Vinay" || name == "Kuber" || name == "Sarita"))
         {
 			printf("\n\nAccess Granted!\nLOADING");
         	for(i=0;i<=6;i++)
